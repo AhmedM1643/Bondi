@@ -171,3 +171,25 @@ button {
 footer {
     background-color: var(--primary);
 }
+
+@media(max-width: 1023px) {
+    .navbar-nav {
+        display: none;
+    }
+    .about-service {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .as-img {
+        width: 360px;
+    }
+
+    .about-content {
+        width: 360px;
+        margin-bottom: 30px;
+    }
+    .about-desc {
+        padding: 0;
+    }
+}
